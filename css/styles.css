@@ -19,7 +19,7 @@ ul {
 }
 
 body {
-  background-color: var(--another-title-color);
+  background-color: #e5e5e5;
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
 }
@@ -29,7 +29,7 @@ body {
   color: #000000;
 
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -91,7 +91,7 @@ body {
   color: var(--another-title-color);
   background-color: var(--accent-color);
 
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -151,6 +151,10 @@ body {
 }
 
 /* Section team */
+.team {
+  background: #f5f4fa;
+}
+
 .team-title {
   color: var(--primary-text-color);
 
@@ -197,7 +201,7 @@ body {
 .basement-logo {
   color: var(--another-title-color);
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -208,7 +212,7 @@ body {
   color: var(--another-title-color);
 
   text-decoration: none;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -218,7 +222,7 @@ body {
   color: var(--another-title-color);
 
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -230,7 +234,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 
   text-decoration: none;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -271,4 +275,14 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.button-primary:hover,
+.button-primary:focus {
+  background-color: var(--accent-color);
+  color: var(--another-title-color);
+}
+
+.link {
+  text-decoration: none;
 }
